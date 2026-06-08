@@ -5,6 +5,8 @@ from src.automacao import (
     RepositorioTarefasEmMemoria, ServicoProcessamento
 )
 
+# pylint: disable=redefined-outer-name
+
 @pytest.fixture
 def repositorio():
     """Fixture para fornecer um repositório em memória limpo."""
